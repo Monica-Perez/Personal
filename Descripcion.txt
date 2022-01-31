@@ -1,0 +1,5 @@
+Calculadora de operaciones básicas como:
+- suma
+- resta
+- multiplicación
+- división
