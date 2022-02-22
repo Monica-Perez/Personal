@@ -18,11 +18,11 @@ void drawMap(int posX,int posY,char gameMap[5][5]){
 int main(){
   int posX=3;
   int posY=3;
-  char map[5][5]={{'0','0','0','0','0'},
-                  {'0','0','0','0','0'},
-                  {'0','0','0','0','0'},
-                  {'0','0','0','0','0'},
-                  {'0','0','0','0','0'}};
+  char map[5][5]={{'1','1','1','1','1'},
+                  {'1','0','0','0','1'},
+                  {'1','0','0','0','1'},
+                  {'1','0','0','0','1'},
+                  {'1','1','1','1','1'}};
   char teclado;
   bool gameOver= false;
   drawMap(posX,posY,map);
@@ -55,7 +55,7 @@ int main(){
             break;
         }
     }else{
-        cout<<"--Llego al Limite--"<<endl;
+        cout<<"\n---Llego al Limite---\n"<<endl;
         }
 
 
