@@ -1,5 +1,6 @@
 #include "Catalogos.h"
 #include "Clientes.h"
+#include "Vendedores.h"
 #include <iostream>
 
 using std::cout;
@@ -37,13 +38,17 @@ Catalogos::Catalogos()
                    Clientes claseclientes;
                 }
             break;
-            /*case nuevo:
-                nuevoRegistroEmp( creditoEntradaSalida );
+            case vendedores:
+                {
+                    Vendedores clasecendedores;
+                }
             break;
-            case modificar:
-                modificarRegistroEmp( creditoEntradaSalida );
+            case productos:
+                {
+                    Productos claseproductos;
+                }
             break;
-            case eliminar:
+            /*case eliminar:
                 eliminarRegistroEmp( creditoEntradaSalida );
             break;
             case mostrar:

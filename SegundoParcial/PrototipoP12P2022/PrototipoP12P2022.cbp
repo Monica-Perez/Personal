@@ -38,13 +38,17 @@
 		<Unit filename="include/Clientes.h" />
 		<Unit filename="include/DatosClientes.h" />
 		<Unit filename="include/DatosUsuarios.h" />
+		<Unit filename="include/DatosVendedores.h" />
 		<Unit filename="include/Usuarios.h" />
+		<Unit filename="include/Vendedores.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Catalogos.cpp" />
 		<Unit filename="src/Clientes.cpp" />
 		<Unit filename="src/DatosClientes.cpp" />
 		<Unit filename="src/DatosUsuarios.cpp" />
+		<Unit filename="src/DatosVendedores.cpp" />
 		<Unit filename="src/Usuarios.cpp" />
+		<Unit filename="src/Vendedores.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1650568589 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\clientes.cpp
+1650571748 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\clientes.cpp
 	"Clientes.h"
 	"DatosClientes.h"
 	<iostream>
@@ -46,9 +46,29 @@
 
 1650560278 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\catalogos.h
 
-1650565983 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
+1650569953 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
 	"Catalogos.h"
 	"Clientes.h"
+	"Vendedores.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1650569645 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\vendedores.h
+
+1650570533 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosvendedores.cpp
+	"DatosVendedores.h"
+	"Vendedores.h"
+	<cstring>
+	<iostream>
+
+1650570698 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosvendedores.h
+	<iostream>
+
+1650571056 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\vendedores.cpp
+	"Vendedores.h"
+	"DatosVendedores.h"
 	<iostream>
 	<fstream>
 	<iomanip>

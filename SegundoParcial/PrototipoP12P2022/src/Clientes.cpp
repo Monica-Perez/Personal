@@ -73,7 +73,8 @@ Clientes::Clientes()
 
    } //FIN WHILE
 }
-int opcionCli(){
+int opcionCli()
+{
     cout<<"\n\t\t\t------------------------------------------------"<<endl;
     cout<<"\t\t\t------------------------------------------------"<<endl;
 	cout<<"\t\t\t |   CLIENTES - MONICA PEREZ, 9959-21-1840   |"<<endl;

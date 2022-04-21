@@ -1,0 +1,2 @@
+Codigo    Nombre          Dirección       Telefono        Nit                      Estatus
+12        Juana           zona24          25632566        256578-9                  Activo
