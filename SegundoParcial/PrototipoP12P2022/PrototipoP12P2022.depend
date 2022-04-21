@@ -46,11 +46,12 @@
 
 1650560278 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\catalogos.h
 
-1650573163 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
+1650577785 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
 	"Catalogos.h"
 	"Clientes.h"
 	"Vendedores.h"
 	"Productos.h"
+	"Marcas.h"
 	<iostream>
 	<fstream>
 	<iomanip>
@@ -86,9 +87,28 @@
 
 1650572814 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\productos.h
 
-1650575739 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\productos.cpp
+1650576662 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\productos.cpp
 	"Productos.h"
 	"DatosProductos.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1650577716 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosmarcas.cpp
+	"DatosMarcas.h"
+	"Marcas.h"
+	<cstring>
+	<iostream>
+
+1650577716 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosmarcas.h
+	<iostream>
+
+1650577123 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\marcas.h
+
+1650577806 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\marcas.cpp
+	"Marcas.h"
+	"DatosMarcas.h"
 	<iostream>
 	<fstream>
 	<iomanip>

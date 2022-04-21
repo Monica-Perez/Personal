@@ -1,0 +1,2 @@
+Codigo    Nombre        Estatus
+6         Salitas               Disponible

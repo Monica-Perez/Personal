@@ -2,6 +2,7 @@
 #include "Clientes.h"
 #include "Vendedores.h"
 #include "Productos.h"
+#include "Marcas.h"
 #include <iostream>
 
 using std::cout;
@@ -49,10 +50,12 @@ Catalogos::Catalogos()
                     Productos claseproductos;
                 }
             break;
-            /*case eliminar:
-                eliminarRegistroEmp( creditoEntradaSalida );
+            case marcas:
+                {
+                    Marcas clasemarcas;
+                }
             break;
-            case mostrar:
+            /*case mostrar:
                 consultarRegistroEmp( creditoEntradaSalida );
             break;*/
             default:
