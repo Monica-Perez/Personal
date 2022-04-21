@@ -1,0 +1,2 @@
+Codigo    Nombre        CodLinea     CodMarca     Existencia          Estatus
+1         Pimienta        8         6         Si              Disponible

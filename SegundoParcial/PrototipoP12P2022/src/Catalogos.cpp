@@ -1,6 +1,7 @@
 #include "Catalogos.h"
 #include "Clientes.h"
 #include "Vendedores.h"
+#include "Productos.h"
 #include <iostream>
 
 using std::cout;
