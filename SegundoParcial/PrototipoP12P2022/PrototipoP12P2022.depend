@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1650560849 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1650558037 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\clientes.h
+
+1650564153 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosclientes.cpp
+	"DatosClientes.h"
+	"Clientes.h"
+	<cstring>
+	<iostream>
+
+1650564112 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosclientes.h
+
+1650561153 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\main.cpp
+	<iostream>
+	"Usuarios.h"
+	"Catalogos.h"
+
+1650558141 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\usuarios.h
+
+1650558761 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosusuarios.cpp
+	"DatosUsuarios.h"
+	"Usuarios.h"
+	<cstring>
+	<iostream>
+
+1650559173 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosusuarios.h
+	<iostream>
+
+1650559614 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\usuarios.cpp
+	"Usuarios.h"
+	"DatosUsuarios.h"
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1650560278 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\catalogos.h
+
+1650562116 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
+	"Catalogos.h"
+	"Clientes.h"
+	<iostream>
+	<cstdlib>
+
