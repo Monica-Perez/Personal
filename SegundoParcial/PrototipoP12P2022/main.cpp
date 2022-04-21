@@ -5,7 +5,7 @@
 using namespace std;
 
 int escribirOpcion();
-enum Opciones { catalogos = 1,/*proveedores, productos,*/ FIN };
+enum Opciones { catalogos = 1,proveedores, productos, FIN };
 
 int main()
 {

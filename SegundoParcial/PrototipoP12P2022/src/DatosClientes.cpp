@@ -5,16 +5,16 @@
 
 using std::string;
 
-DatosClientes::DatosClientes(/*int valorCodigo, string valorNombre, string valorDireccion,  string valorNit, int valorTelefono, int valorCodVendedor, string valorEstatus */)
+DatosClientes::DatosClientes(int valorCodigo, string valorNombre, string valorDireccion,  string valorNit, int valorTelefono, int valorCodVendedor, string valorEstatus )
 {
-    /*establecerCodigo( valorCodigo );
+    establecerCodigo( valorCodigo );
     establecerNombre( valorNombre );
     establecerDireccion( valorDireccion );
     establecerNit( valorNit );
     establecerTelefono( valorTelefono );
     establecerCodVendedor( valorCodVendedor );
-    establecerEstatus( valorEstatus );*/
-}/*
+    establecerEstatus( valorEstatus );
+}
 int DatosClientes::obtenerCodigo() const
 {
    return codigo;
@@ -24,7 +24,7 @@ void DatosClientes::establecerCodigo( int valorCodigo )
    codigo = valorCodigo;
 }
 /*---------------------------------------------------------------*/
-/*string DatosClientes::obtenerNombre() const
+string DatosClientes::obtenerNombre() const
 {
    return nombre;
 }
@@ -38,7 +38,7 @@ void DatosClientes::establecerNombre( string primerNombre )
     primerNombre[ longitud ] = '\0';
 }
 /*---------------------------------------------------------------*/
-/*string DatosClientes::obtenerDireccion() const
+string DatosClientes::obtenerDireccion() const
 {
    return direccion;
 }
@@ -52,7 +52,7 @@ void DatosClientes::establecerDireccion( string direString )
     direccion[ longitud ] = '\0';
 }
 /*---------------------------------------------------------------*/
-/*string DatosClientes::obtenerNit() const
+string DatosClientes::obtenerNit() const
 {
    return nit;
 }
@@ -66,7 +66,7 @@ void DatosClientes::establecerNit( string nitstring )
     nit[ longitud ] = '\0';
 }
 /*---------------------------------------------------------------*/
-/*int DatosClientes::obtenerTelefono() const
+int DatosClientes::obtenerTelefono() const
 {
    return telefono;
 }
@@ -75,7 +75,7 @@ void DatosClientes::establecerTelefono( int valorTelefono )
    telefono = valorTelefono;
 }
 /*---------------------------------------------------------------*/
-/*int DatosClientes::obtenerCodVendedor() const
+int DatosClientes::obtenerCodVendedor() const
 {
    return codVendedor;
 }
@@ -84,7 +84,7 @@ void DatosClientes::establecerCodVendedor( int valorCodVendedor )
    codVendedor = valorCodVendedor;
 }
 /*---------------------------------------------------------------*/
-/*string DatosClientes::obtenerEstatus() const
+string DatosClientes::obtenerEstatus() const
 {
    return estatus;
 }
@@ -97,7 +97,7 @@ void DatosClientes::establecerEstatus( string estatusstring )
 
     estatus[ longitud ] = '\0';
 }
-*/
+
 DatosClientes::~DatosClientes()
 {
     //dtor

@@ -1,21 +1,23 @@
 #ifndef DATOSCLIENTES_H
 #define DATOSCLIENTES_H
 
+#include <iostream>
+using std::string;
 
 class DatosClientes
 {
     public:
         virtual ~DatosClientes();
-        DatosClientes( /*int = 0, string = "", string = "", string = "", int = 0, int = 0, string = ""*/);
+        DatosClientes( int = 0, string = " ", string = " ", string = " ", int = 0, int = 0, string = " " );
 
-        /*void establecerCodigo( int );
+        void establecerCodigo( int );
         int obtenerCodigo() const;
 
         void establecerNombre( string );
         string obtenerNombre() const;
 
-        void establecerDirección( string );
-        string obtenerDirección() const;
+        void establecerDireccion( string );
+        string obtenerDireccion() const;
 
         void establecerNit( string );
         string obtenerNit() const;
@@ -27,18 +29,18 @@ class DatosClientes
         int obtenerCodVendedor() const;
 
         void establecerEstatus( string );
-        string obtenerEstatus() const;*/
+        string obtenerEstatus() const;
 
     protected:
 
     private:
-        /*int codigo;
+        int codigo;
         char nombre[ 15 ];
         char direccion[ 15 ];
         char nit[ 15 ];
         int telefono;
         int codVendedor;
-        char estatus[15];*/
+        char estatus[15];
 };
 
 #endif // DATOSCLIENTES_H

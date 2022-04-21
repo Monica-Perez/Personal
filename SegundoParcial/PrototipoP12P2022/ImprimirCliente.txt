@@ -1,0 +1,1 @@
+Codigo    Nombre          Dirección       NIT             Telefono  CodigoVendedor         Estatus

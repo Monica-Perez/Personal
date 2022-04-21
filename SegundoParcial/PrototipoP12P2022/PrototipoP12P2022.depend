@@ -1,19 +1,24 @@
 # depslib dependency file v1.0
-1650560849 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\clientes.cpp
+1650568589 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\clientes.cpp
 	"Clientes.h"
+	"DatosClientes.h"
 	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
 
 1650558037 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\clientes.h
 
-1650564153 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosclientes.cpp
+1650564829 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\datosclientes.cpp
 	"DatosClientes.h"
 	"Clientes.h"
 	<cstring>
 	<iostream>
 
-1650564112 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosclientes.h
+1650564850 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\datosclientes.h
+	<iostream>
 
-1650561153 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\main.cpp
+1650566074 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\main.cpp
 	<iostream>
 	"Usuarios.h"
 	"Catalogos.h"
@@ -41,9 +46,11 @@
 
 1650560278 c:\users\monica pérez\desktop\progra i\prototipop12p2022\include\catalogos.h
 
-1650562116 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
+1650565983 source:c:\users\monica pérez\desktop\progra i\prototipop12p2022\src\catalogos.cpp
 	"Catalogos.h"
 	"Clientes.h"
 	<iostream>
+	<fstream>
+	<iomanip>
 	<cstdlib>
 

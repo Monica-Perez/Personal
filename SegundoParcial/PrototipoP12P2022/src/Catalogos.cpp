@@ -1,19 +1,41 @@
 #include "Catalogos.h"
 #include "Clientes.h"
 #include <iostream>
+
+using std::cout;
+using std::cerr;
+using std::cin;
+using std::endl;
+using std::ios;
+using std::left;
+using std::right;
+using std::fixed;
+using std::showpoint;
+
+#include <fstream>
+using std::ofstream;
+using std::ostream;
+using std::fstream;
+
+#include <iomanip>
+using std::setw;
+using std::setprecision;
 #include <cstdlib>
+
+int opcionCat();
 
 using namespace std;
 
-int opcionCat();
 Catalogos::Catalogos()
 {
-    enum Opciones { clientes = 1, proveedores, productos, FIN };
+    enum Opciones { clientes = 1, vendedores, productos, marcas, lineas, FIN };
     int opcion;
     while ( ( opcion = opcionCat() ) != FIN ) {
         switch ( opcion ) {
             case clientes:
-                Clientes claseclientes;
+                {
+                   Clientes claseclientes;
+                }
             break;
             /*case nuevo:
                 nuevoRegistroEmp( creditoEntradaSalida );
@@ -26,10 +48,12 @@ Catalogos::Catalogos()
             break;
             case mostrar:
                 consultarRegistroEmp( creditoEntradaSalida );
-            break;
-            default:
-            cerr << "Opcion incorrecta" << endl;
             break;*/
+            default:
+                {
+                  cerr << "Opcion incorrecta" << endl;
+                }
+            break;
 
       } //FIN SWITCH
 
